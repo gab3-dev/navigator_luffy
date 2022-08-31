@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="Home">
+            <menu>
+                <item
+                    android:id="@+id/mTbate"
+                    android:checked="true"
+                    android:icon="@drawable/wolf"
+                    android:title="Tbate" />
+                <item
+                    android:id="@+id/mSoloLeveling"
+                    android:checked="true"
+                    android:icon="@drawable/knife"
+                    android:title="Solo Leveling" />
+                <item
+                    android:id="@+id/mOnePiece"
+                    android:checked="true"
+                    android:icon="@drawable/luffy"
+                    android:title="One Piece" />
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:title="Tools">
+            <menu>
+                <item
+                    android:id="@+id/mSettings"
+                    android:icon="@drawable/ic_baseline_settings"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/mShare"
+                    android:icon="@drawable/ic_baseline_share"
+                    android:title="Share" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
